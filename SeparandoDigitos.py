@@ -1,0 +1,8 @@
+print('='*6, 'Separando digitos de um número ' ,'='*6)
+n = int(input('Digite um número: '))
+num = str(n)
+print('Unidade: {}'.format(num[3]))
+print('Dezena: {}'.format(num[2]))
+print('Centena: {}'.format(num[1]))
+print('Milhar: {}'.format(num[0]))
+print('='*40)
